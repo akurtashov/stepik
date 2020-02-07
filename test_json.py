@@ -2,13 +2,13 @@ import json
 import sys
 
 data = [
-        {'name': 'A', 'parents': []},
-        {'name': 'B', 'parents': ['A', 'C']            },
-        {'name': 'C', 'parents': ['A']},
-        {'name': 'D', 'parents': ['C']},
-        {'name': 'E', 'parents': ['D']},
-        {'name': 'F', 'parents': ['D']},
-        {'name': 'G', 'parents': ['E']},
+        {'name': 'AA' 'parents': []},
+        {'name': 'BB', 'parents': ['AA', 'CC']            },
+        {'name': 'CC', 'parents': ['AA']},
+        {'name': 'DD', 'parents': ['CC']},
+        {'name': 'EE', 'parents': ['DD']},
+        {'name': 'FF', 'parents': ['DD']},
+        {'name': 'GG', 'parents': ['EE']},
         ]
 
 with open('test2.json', 'w') as json_file:
